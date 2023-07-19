@@ -1,20 +1,23 @@
 #include "main.h"
+
 /**
- * jack_bauer - Entry point
- * Return:0
- */
+* jack_bauer - prints all  minutes of Jack Bauer
+* the code starts from 00:00 to 23:59
+*/
+
 void jack_bauer(void)
 {
-int i, j;
-for (i = 0; i < 24; i++)
+int h, m;
+
+for (h = 0; h < 24; h++)
 {
-for (j = 0; j < 60; j++)
+for (m = 0; m < 60; m++)
 {
-_putchar(i / 10 + '0');
-_putchar(i % 10 + '0');
+_putchar((h / 10) + '0');
+_putchar((h % 10) + '0');
 _putchar(':');
-_putchar(j / 10 + '0');
-_putchar(j % 10 + '0');
+_putchar((m / 10) + '0');
+_putchar((m % 10) + '0');
 _putchar('\n');
 }
 }

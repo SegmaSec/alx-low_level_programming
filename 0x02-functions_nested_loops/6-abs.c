@@ -1,15 +1,16 @@
 #include "main.h"
+
 /**
- * _abs - Entry point
- * @n: character to check
- * Return:0
+ * _abs - checks the absolute value
+ * @n: is the variable
+ * Return: 0 or absolute value of c
  */
+
 int _abs(int n)
 {
-if (n < 0)
+if (n >= 0)
 {
-n = n * -1;
-}
 return (n);
 }
-
+return (-n);
+}

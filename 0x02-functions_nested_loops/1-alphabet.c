@@ -1,8 +1,11 @@
 #include "main.h"
+
 /**
- * print_alphabet - Entry point
- * Return:0
+ * print_alphabet - write alphabets
+ * code that prints the alphabets
+ * Return: 0
  */
+
 void print_alphabet(void)
 {
 char ch = 'a';
