@@ -13,7 +13,7 @@ for (sec = 0; sec < 15; sec++)
 {
 if (sec > 9)
 {
-_putchar('1');
+_putchar(sec / 10 + '0');
 }
 _putchar(sec % 10 + '0');
 }
